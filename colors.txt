@@ -49,7 +49,7 @@
             black_40_on_white: "#000000",
             black_60: "rgba(0, 0, 0, 0.60)",
             black_60_on_white: "rgb(102,102,102)",
-            black_75: "rgba(0, 0, 0, 0.75)",
+            black_75: "#12b768",//used for the font in chat-window
             black_75_on_white: "rgb(64,64,64)",
             blue: "#12b768",
             blue2: "#db8a33",
