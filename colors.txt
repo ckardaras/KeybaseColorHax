@@ -114,3 +114,6 @@
         r = n(122),
         a = n(37),
         s = n.n(a);
+
+
+//  Main chat background color requires you serach for this: {\n\tbackground-color: 
