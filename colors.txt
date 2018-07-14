@@ -37,7 +37,7 @@
     "use strict";
     var o = n(7);
     var i = {
-            beige: "#FAF2ED",
+            beige: "#162f19",
             black: "#1c4a26",
             black_05: "rgba(0, 0, 0, 0.05)",
             black_05_on_white: "rgb(242,242,242)",
@@ -61,7 +61,7 @@
             blue3_60: "rgba(168, 204, 255, 0.6)",
             blue3_60_on_white: "rgb(203, 224, 255)",
             blue4: "#EBF2FC",
-            blue5: "#0e2210",
+            blue5: "#000000", // chatlist background
             blue_30: "rgba(51, 160, 255, 0.3)",
             blue_30_on_white: "rgb(192,226,255)",
             blue_60: "rgba(51, 160, 255, 0.6)",
@@ -69,10 +69,10 @@
             brown_60: "rgba(71, 31, 17, 0.6)",
             brown_60_on_white: "rgb(145,121,112)",
             darkBlue: "#1c4a26", // chat-user list inactive default "#2645A3"
-            darkBlue2: "#162f19",
-            darkBlue3: "#182D6E",
-            darkBlue3_75: "rgba(24, 45, 110, .75)",
-            darkBlue3_75_on_white: "rgb(82,98,147)",
+            darkBlue2: "#000000", // tabs list on the left
+            darkBlue3: "#182D6E", // not used
+            darkBlue3_75: "rgba(24, 45, 110, .75)", // not used
+            darkBlue3_75_on_white: "rgb(82,98,147)", // not used
             darkBlue4: "#1c4a26",
             fastBlank: o.c ? void 0 : "#162f19", // highlights names in the chat-body
             green: "#3DCCA6",
@@ -91,7 +91,7 @@
             red_75_on_white: "#1c4a26",  // DB nuke warning, other warnings
             transparent: "rgba(0, 0, 0, 0)",
             transparent_on_white: "#0e1e10",
-            white: "#11633f", // Highlights tabs
+            white: "#11633f", // Highlights tabs AND chat input box
             white_0: "rgba(255, 255, 255, 0)",
             white_0_on_white: "#12b768",
             white_20: "rgba(255, 255, 255, 0.20)",
@@ -116,4 +116,4 @@
         s = n.n(a);
 
 
-//  Main chat background color requires you serach for this: {\n\tbackground-color: 
+// Main chat background color requires you serach for this: {\n\tbackground-color:
