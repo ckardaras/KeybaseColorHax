@@ -1,3 +1,35 @@
+! function(e) {
+    var t = {};
+
+    function n(o) {
+        if (t[o]) return t[o].exports;
+        var i = t[o] = {
+            i: o,
+            l: !1,
+            exports: {}
+        };
+        return e[o].call(i.exports, i, i.exports, n), i.l = !0, i.exports
+    }
+    n.m = e, n.c = t, n.d = function(e, t, o) {
+        n.o(e, t) || Object.defineProperty(e, t, {
+            configurable: !1,
+            enumerable: !0,
+            get: o
+        })
+    }, n.r = function(e) {
+        Object.defineProperty(e, "__esModule", {
+            value: !0
+        })
+    }, n.n = function(e) {
+        var t = e && e.__esModule ? function() {
+            return e.default
+        } : function() {
+            return e
+        };
+        return n.d(t, "a", t), t
+    }, n.o = function(e, t) {
+        return Object.prototype.hasOwnProperty.call(e, t)
+    }, n.p = "../dist/", n(n.s = 902)
 }([function(e, t, n) {
     "use strict";
     e.exports = n(806)
@@ -5,16 +37,16 @@
     "use strict";
     var o = n(7);
     var i = {
-            beige: "#FAF2ED",
+            beige: "#000000",
             black: "#000000",
             black_05: "rgba(0, 0, 0, 0.05)",
-            black_05_on_white: "rgb(242,242,242)",
+            black_05_on_white: "#000000",
             black_10: "rgba(0, 0, 0, 0.10)",
-            black_10_on_white: "rgb(229,229,229)",
+            black_10_on_white: "#000000",
             black_20: "rgba(0, 0, 0, 0.20)",
-            black_20_on_white: "rgb(204,204,204)",
+            black_20_on_white: "#000000",
             black_40: "rgba(0, 0, 0, 0.40)",
-            black_40_on_white: "rgb(153,153,153)",
+            black_40_on_white: "#000000",
             black_60: "rgba(0, 0, 0, 0.60)",
             black_60_on_white: "rgb(102,102,102)",
             black_75: "rgba(0, 0, 0, 0.75)",
@@ -47,8 +79,8 @@
             green2: "#34AD8D",
             green3: "#E8FAF6",
             grey: "#cccccc",
-            lightGrey: "#f0f0f0",
-            lightGrey2: "#e6e6e6",
+            lightGrey: "#000000",
+            lightGrey2: "#000000",
             orange: "#ff6f21",
             purple: "#704eba",
             purple2: "#845cdb",
@@ -64,9 +96,9 @@
             white_0_on_white: "#9f7bec",
             white_20: "rgba(255, 255, 255, 0.20)",
             white_20_on_white: "#704eba",
-            white_40: "rgba(255, 255, 255, 0.40)",
+            white_40: "#000000",
             white_40_on_white: "#152118",
-            white_75: "rgba(255, 255, 255, 0.75)",
+            white_75: "#000000",
             white_75_on_white: "#152118",
             white_90: "#0e2210",
             white_90_on_white: "#FF4C4C",
