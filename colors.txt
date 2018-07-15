@@ -45,11 +45,11 @@
       black_10_on_white: "rgb(229,229,229)",
       black_20: "rgba(18,183,104, 0.20)",         //  (SEEMS TO DO NOTHING?)
       black_20_on_white: "rgb(204,204,204)",
-      black_40: "#cfdbd3",                        //  FONTS: Chatlist old messages, ASSETS: Icons top right, bottom right
+      black_40: "#424242",                        //  FONTS: Chatlist old messages, ASSETS: Icons top right, bottom right
       black_40_on_white: "rgb(153,153,153)",      //  (SEEMS TO DO NOTHING?)
       black_60: "rgba(18,183,104, 0.60)",
       black_60_on_white: "rgb(20,206,117)",       //  (SEEMS TO DO NOTHING?)
-      black_75: "#12b768",                        //  CHAT BODY: Your name, text messages in chat body
+      black_75: "#cccccc",                      //  CHAT BODY: Your name, text messages in chat body   #12b768",
       black_75_on_white: "rgb(20,206,117)",       //  (SEEMS TO DO NOTHING?)
       blue: "#15381d",                            //  CHAT BODY: Their name
       blue2: "#db8a33",
